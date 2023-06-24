@@ -1,3 +1,6 @@
+// Jump to a given time on a YouTube live stream.
+// Video must follow live broadcast before running the bookmarklet (i.e., stream time must match current time). 
+
 javascript: (function() {
     const target_time = window.prompt('Time (ex: 20:09):');
     const [target_hour, target_minute] = target_time.split(':');
